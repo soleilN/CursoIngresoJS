@@ -1,19 +1,22 @@
 function mostrar()
 {
 	var edad;
-	var soltero;
-	var casado;
-	var divorciado;
+	var estadoCivil;
+    
 
 	edad=txtIdEdad.value;
-	edad=parseInt(edad);
 	
-if(edad<=18&&casado||divorciado){
+
+	estadoCivil=document.getElementById("estadoCivil").value;
+    
+
+   if(edad<=18 && estadoCivil != "Soltero"){
 
 	alert("Es muy pequeño para NO ser soltero");
 
 
 }
+
 
 
 
