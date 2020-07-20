@@ -1,4 +1,4 @@
-function mostrar()
+/*function mostrar()
 {
 	//tomo la edad  
 	
@@ -27,4 +27,63 @@ if(edad>17){
 	}
 
 
-}//FIN DE LA FUNCIÓN
+}*/ 
+
+/*function mostrar()
+error forzado
+{
+
+var edad;
+
+	edad=txtIdEdad.value;
+	edad=parseInt(edad);
+
+if(edad>17)
+{
+
+	alert("usted es mayor de edad");
+	}
+
+	if(edad<18 && edad>12 )
+ {
+
+	alert("usted es un adolescente");
+
+	}
+
+
+else{ 
+	alert("usted es un niño")
+	}
+}*/
+function mostrar()
+
+{
+
+	var edad;
+
+	edad=txtIdEdad.value;
+	edad=parseInt(edad);
+
+	if(edad>17)
+	{
+
+		alert("usted es mayor de edad");
+	}
+	else
+    {
+
+			if(edad>12 )
+    	{
+
+		alert("usted es un adolescente");
+
+		}
+			else
+		{ 
+			alert("usted es un niño")
+		}
+	}
+}
+
+

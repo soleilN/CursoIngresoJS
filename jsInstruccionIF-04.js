@@ -1,6 +1,13 @@
-function mostrar()
+
+
+//Torres sol ejer 4//
+
+/*function mostrar()
+
+
+
 {
-	//tomo la edad  
+	 
 	var edad;
 
 	edad=txtIdEdad.value;
@@ -12,4 +19,20 @@ function mostrar()
 	}
 
 
-}//FIN DE LA FUNCIÓN
+
+}*/
+function mostrar()
+{
+
+	edad=txtIdEdad.value;
+	edad=parseInt(edad);
+    if(edad<18)
+    {
+
+		if(edad>12 )
+		{
+
+			alert("usted es un adolescente");
+		}
+	}
+}
