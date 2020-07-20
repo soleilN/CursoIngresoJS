@@ -8,7 +8,7 @@ function mostrar()
 	edad=txtIdEdad.value;
 	edad=parseInt(edad);
 
-if(edad>=18){
+if(edad>17){
 
 	alert("usted es mayor de edad");
 

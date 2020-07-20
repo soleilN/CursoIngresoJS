@@ -5,7 +5,7 @@ function mostrar()
 	edad=txtIdEdad.value;
 	edad=parseInt(edad);
 
- if(!(edad<=17 && edad>=13) ){
+ if(!(edad<18 && edad>12) ){
 
 	alert("usted  no es un adolescente");
 
