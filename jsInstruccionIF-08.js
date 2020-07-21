@@ -1,6 +1,3 @@
-
-//Torres Sol ejer 7//
-
 function mostrar()
 {
 	var edad;
@@ -12,10 +9,8 @@ function mostrar()
 
 	estadoCivil=document.getElementById("estadoCivil").value;
     
-
-   if(edad<18 && estadoCivil != "Soltero")
-   {
-
-		alert("Es muy pequeño para NO ser soltero");
+    if(edad>17&&estadoCivil=="Soltero")
+    {
+    		alert("Es soltero y no es menor.");
 	}
 }//FIN DE LA FUNCIÓN
